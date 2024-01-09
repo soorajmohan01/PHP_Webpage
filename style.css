@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(223, 218, 215);
+    
+}
+header h1{
+    color: rgb(99, 78, 78);
+    display: flex;
+    justify-content: center;
+}
+section{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+section div{
+    width: 30%;
+    background-color: rgb(185, 145, 223);
+}
+#error{
+    width: 100%;
+    color: red;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+section div .form-item{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+section div label{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+section div input{
+    height: 1.5rem;
+    width: 20rem;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+section div button{
+    margin-top: 2rem;
+    margin-left: 15rem;
+    width: 6rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border-radius: 5rem;
+    border: 3px;
+}
+section div button:hover{
+    color: blue;
+    background-color: rgb(235, 179, 221);
+}
+section div a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #7e4875;
+    margin-bottom: 1rem;
+}
+section div .boxspace{
+    margin-left: 3rem;
+}
